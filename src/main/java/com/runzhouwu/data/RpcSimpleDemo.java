@@ -4,7 +4,6 @@ import com.runzhouwu.data.ipc.EchoImpl;
 import com.runzhouwu.data.ipc.EchoProtocol;
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.ipc.RPC;
-import org.apache.hadoop.ipc.RpcEngine;
 import org.apache.hadoop.ipc.Server;
 import org.apache.hadoop.net.NetUtils;
 import org.apache.hadoop.security.UserGroupInformation;
@@ -18,10 +17,10 @@ import java.net.InetSocketAddress;
  * Hello world!
  *
  */
-public class App 
+public class RpcSimpleDemo
 {
 
-    private final static Logger logger = LoggerFactory.getLogger(App.class);
+    private final static Logger logger = LoggerFactory.getLogger(RpcSimpleDemo.class);
 
     public static void main( String[] args ) throws IOException {
 

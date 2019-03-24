@@ -1,4 +1,4 @@
-option java_package = "com.runzhouwu.data";
+option java_package = "com.runzhouwu.data.proto.pojo";
 option java_outer_classname = "PersonModel";
 
 message Person {
