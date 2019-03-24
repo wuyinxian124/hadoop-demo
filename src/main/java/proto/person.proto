@@ -1,0 +1,8 @@
+option java_package = "com.runzhouwu.data";
+option java_outer_classname = "PersonModel";
+
+message Person {
+     required int32 id = 1;
+     required string name = 2;
+     required string email = 3;
+}
